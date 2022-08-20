@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.productsPage{
+  width:95vw;
+  height: 650px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 0 auto;
+  background-color: rgb(254, 245, 224);
+  border: 1px solid rgb(231, 231, 231);
+  margin: 20px auto 20 auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.table{
+  width:90vw ;
+  height: 600px;
   display: flex;
   flex-direction: column;
+  justify-content:space-around;  
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:rgb(157, 102, 0);
+  font-weight: 500;
+  padding: 20px 0;
+  margin: 50px auto;
 }
-
-.App-link {
-  color: #61dafb;
+tbody{
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+tr{
+  width: 90%;
+  height: 50px;
+  display: flex;   
+  justify-content: space-around;
+  text-align: start;
+  border: 1px solid rgb(162, 162, 162);
+  background-color: antiquewhite;
+  margin: 0 auto 0 auto;
+  padding: 5px;
+}
+tr input{
+  width: 150%;
+}
+.searchBar{
+  width: 90vw;
+  height: 100px;
+  align-items: center;
+  margin: 20px auto  20px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.searchBar input{
+  border: 1px solid rgb(226, 226, 226);
+  padding: 10px;
+}
+td{
+  width: 20%;
+}
+th{
+  width: 20%;
+  text-align: start;
+}
+input{
+  width: 200px;
+}
+h4{
+  width: 200px;
 }
